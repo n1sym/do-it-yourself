@@ -8,8 +8,6 @@ required_time: '5分'
 
 GitHub はソフトウェア開発のプラットフォームで、ソースコードを保存することができます。
 
-![](/image/post-0/github.png)
-
 ### # アカウント登録
 
 
