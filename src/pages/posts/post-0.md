@@ -4,16 +4,21 @@ title: 'GitHub のアカウントを作成する'
 required_time: '5分'
 ---
 
-事前準備として、GitHub のアカウントを作成しましょう。
+事前準備として、GitHub のアカウントを作成します。
 
 GitHub はソフトウェア開発のプラットフォームで、ソースコードを保存することができます。
 
+![](/image/post-0/github.png)
 
 ### # アカウント登録
+
+
 
 以下のページからアカウント登録が可能です。
 
 https://github.com/join
+
+
 
 
 **Email preferences** はチェックを入れなくても大丈夫です。
