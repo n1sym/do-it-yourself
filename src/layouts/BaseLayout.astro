@@ -1,0 +1,52 @@
+---
+const { pageTitle } = Astro.props;
+import Sidebar from "../components/Sidebar.astro"
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <style>
+      .app {
+        display: flex;
+        flex-direction: row;
+      }
+      .sidebar {
+        flex: 1;
+        margin-right: 16px;
+      }
+      .main-column {
+        flex: 3;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <Sidebar />
+      </aside>
+      <aside class="main-column">
+        <h1>{pageTitle}</h1>
+        <slot />
+        <br />
+        <hr />
+        <br />
+        <script
+          src="https://utteranc.es/client.js"
+          repo="n1sym/do-it-yourself"
+          issue-term="pathname"
+          theme="preferred-color-scheme"
+          crossorigin="anonymous"
+          async
+        ></script>
+      </aside>
+    </div>
+  </body>
+</html>

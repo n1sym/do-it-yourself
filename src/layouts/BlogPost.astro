@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+export interface Props {
+	content: {
+		title: string;
+    required_time: string;
+	};
+}
+
+const {
+	content: { title, required_time },
+} = Astro.props;
+---
+<style>
+  .required_time {color: rgb(86, 100, 112); font-size: 14px; margin-bottom: 30px;}
+</style>
+<BaseLayout pageTitle={title}>
+	<main>
+		<article>
+      <p class="required_time">所要時間の目安 : {required_time}</p>
+			<slot />
+		</article>
+	</main>
+</BaseLayout>
