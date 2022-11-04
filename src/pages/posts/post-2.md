@@ -23,7 +23,7 @@ Fork が完了すると、画面左上に Connect repository というボタン�
 
 すると、stackblitz の画面に以下のフィールドが出現します。 
 
-![](/public/image/post-2/reponame.png)
+![](/image/post-2/reponame.png)
 
 New repository name: に、任意の名前を入力し、Create repo & push ボタンをクリックします。
 
@@ -35,6 +35,6 @@ Create repo & push が完了したら、画面の左上に作成したリポジ�
 
 それをクリックすると、GitHub のリポジトリが開かれます。
 
-![](/public/image/post-2/repo.png)
+![](/image/post-2/repo.png)
 
 右上の About 欄に `stackblitz.com/edit/github-bvrdnh` というリンクが表示されていますが、これをクリックすると stackblitz の開発環境を開くことができます。
