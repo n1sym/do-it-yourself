@@ -5,10 +5,9 @@ html {
 
 body {
   margin: 0 auto;
-  width: 100%;
-  max-width: 120ch;
+  max-width: 100ch;
   padding: 1rem;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 /* Inline code */
@@ -52,6 +51,10 @@ td {
 	padding: 6px 13px;
 }
 
+pre {
+  position: relative;
+}
+
 /**
  * GHColors theme by Avi Aryan (http://aviaryan.in)
  * Inspired by Github syntax coloring
@@ -60,7 +63,7 @@ td {
  pre[class*="language-"],
 code[class*="language-"] {
 	color: #d4d4d4;
-	font-size: 13px;
+	font-size: 15px;
 	text-shadow: none;
 	font-family: Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
 	direction: ltr;
@@ -76,7 +79,7 @@ code[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-  
+  overflow: auto;
 }
 
 pre[class*="language-"]::selection,
@@ -97,7 +100,7 @@ code[class*="language-"] *::selection {
 pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
-	overflow: auto;
+	overflow-x: auto;
 	background: #1e1e1e;
 }
 

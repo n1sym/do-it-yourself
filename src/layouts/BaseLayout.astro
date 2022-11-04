@@ -18,19 +18,27 @@ import "../styles/global.css";
       }
       .sidebar {
         flex: 1;
-        margin-right: 16px;
+        margin-right: 30px;
+      }
+      .sticky {
+        position: sticky;
+        top: 36px;
       }
       .main-column {
         flex: 3;
         margin-right: 16px;
         padding-right: 16px;
+        min-width: 0;
       }
     </style>
   </head>
   <body>
     <div class="app">
       <aside class="sidebar">
-        <Sidebar />
+        <div class="sticky">
+          <Sidebar />
+        </div>
+        
       </aside>
       <aside class="main-column">
         <h1>{pageTitle}</h1>
@@ -46,6 +54,7 @@ import "../styles/global.css";
           crossorigin="anonymous"
           async
         ></script>
+        <br>
       </aside>
     </div>
   </body>

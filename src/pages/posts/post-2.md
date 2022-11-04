@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: 'ソースコードを保存する'
-required_time: '10分'
+required_time: '5分'
 ---
 
 
@@ -12,6 +12,8 @@ required_time: '10分'
 画面右上の Sign in というボタンをクリックすると、新しいウィンドウで Authorize の確認画面が表示されると思います。`Autorize stackblitz` という緑色のボタンをクリックして、GitHub と連携することを承認します。
 
 連携が完了すると、ブラウザの右上に GitHub のプロフィールが表示されているはずです。
+
+<br>
 
 # # GitHub にソースコードを保存する
 
@@ -29,9 +31,13 @@ New repository name: に、任意の名前を入力し、Create repo & push ボ�
 
 Make this repository private には、**チェックをいれないでください。**
 
+<br>
+
 # # GitHub に保存したソースコードを確認する
 
 Create repo & push が完了したら、画面の左上に作成したリポジトリの名前が表示されていると思います。
+
+![](/image/post-2/name.png)
 
 それをクリックすると、GitHub のリポジトリが開かれます。
 
