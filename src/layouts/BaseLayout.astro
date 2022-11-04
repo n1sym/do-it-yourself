@@ -1,6 +1,7 @@
 ---
 const { pageTitle } = Astro.props;
 import Sidebar from "../components/Sidebar.astro"
+import Footer from '../components/Footer.astro';
 import "../styles/global.css";
 ---
 
@@ -54,8 +55,9 @@ import "../styles/global.css";
           crossorigin="anonymous"
           async
         ></script>
-        <br>
+        <Footer />
       </aside>
     </div>
+    
   </body>
 </html>
