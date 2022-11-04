@@ -19,7 +19,6 @@ import "../styles/global.css";
       }
       .sidebar {
         flex: 1;
-        margin-right: 30px;
       }
       .sticky {
         position: sticky;
@@ -27,10 +26,25 @@ import "../styles/global.css";
       }
       .main-column {
         flex: 3;
+        margin-left: 36px;
         margin-right: 16px;
         padding-right: 16px;
         min-width: 0;
       }
+      @media screen and (max-width: 767px) {
+        .app {
+          display: flex;
+          flex-direction: column;
+        }
+        .sidebar {
+          order: 2;
+        }
+        .main-column {
+          margin-left: 10px;
+          margin-right: 10px;
+          order: 1;
+        }
+      } 
     </style>
   </head>
   <body>
@@ -55,9 +69,10 @@ import "../styles/global.css";
           crossorigin="anonymous"
           async
         ></script>
-        <Footer />
+        
       </aside>
+      
     </div>
-    
+    <Footer />
   </body>
 </html>
