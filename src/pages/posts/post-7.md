@@ -26,13 +26,13 @@ id: 7
 ~~~astro
 ---
 ---
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>画像置き場</title>
 		<style>
 		</style>
 	</head>
@@ -53,7 +53,7 @@ id: 7
 ~~~astro
 ---
 ---
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />

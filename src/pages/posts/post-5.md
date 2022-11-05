@@ -18,7 +18,7 @@ CSS を使うことで、文字の大きさを換えたり、背景の色を変�
 ~~~astro
 ---
 ---
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -54,7 +54,7 @@ CSS を使うことで、文字の大きさを換えたり、背景の色を変�
 ~~~astro
 ---
 ---
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />

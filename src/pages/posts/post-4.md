@@ -31,7 +31,7 @@ stackblitz の開発環境を閉じてしまった方は、GitHub に作成し�
 ---
 ---
 
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -60,7 +60,7 @@ stackblitz の開発環境を閉じてしまった方は、GitHub に作成し�
 ---
 ---
 
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />

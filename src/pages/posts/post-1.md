@@ -43,7 +43,7 @@ https://astro.new/minimal?on=stackblitz
 ---
 ---
 
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
