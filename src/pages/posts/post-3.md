@@ -6,6 +6,8 @@ required_time: '10分'
 
 stackblitz で作ったサイトを公開してみましょう。
 
+<br>
+
 # # Vercel にログインする
 
 サイトの公開は Vercel というサービスを利用します。
