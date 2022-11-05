@@ -5,15 +5,34 @@ export interface Props {
 	content: {
 		title: string;
     required_time: string;
+    id: number;
 	};
 }
 
 const {
-	content: { title, required_time },
+	content: { title, required_time, id },
 } = Astro.props;
+
+const allPosts = await Astro.glob('../pages/posts/*.md');
+let prev = null
+let next = null
+if (id != 0) {
+  prev = allPosts[id - 1]
+} else {
+  prev = {url: "/" ,frontmatter: {title: "はじめに"}}
+}
+if (id != 8) {
+  next = allPosts[id + 1]
+} else {
+  next = {frontmatter: {}}
+}
 ---
+
 <style>
   .required_time {color: rgb(86, 100, 112); font-size: 14px; margin-bottom: 30px;}
+  #prevnext {display: flex; justify-content: space-between; padding: 10px;}
+  #prev {padding-right: 10px}
+  #next {padding-left: 10px}
 </style>
 <BaseLayout pageTitle={title}>
 	<main>
@@ -21,5 +40,16 @@ const {
       <p class="required_time">所要時間の目安 : {required_time}</p>
 			<slot />
 		</article>
+    <br>
+    <hr>
+    <br>
+    <div id="prevnext">
+      <span id="prev">
+        前： <a href={prev.url}>{prev.frontmatter.title}</a> 
+      </span>
+      <span id="next">
+        次： <a href={next.url}>{next.frontmatter.title}</a>
+      </span>
+    </div>
 	</main>
 </BaseLayout>

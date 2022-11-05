@@ -6,12 +6,12 @@ const pageTitle = "Do It Yourself !!"
   li {padding-bottom: 2px;}
   .publish_date {color: rgb(138, 145, 151); font-size: 14px; margin-bottom: 20px;}
   h3 {padding-top: 20px;}
+  #alignright {text-align: right; padding-top:10px; padding-bottom:10px;}
 </style>
 <BaseLayout pageTitle={pageTitle}>
   <main>
     
     <div class="publish_date">最終更新日 : 2022/11/05</div>
-
     <p>個人サイトを自分で作ってみよう！という趣旨のページです。</p>
     <p>面倒な環境構築などは必要ありませんので、気軽にお試し頂けたらと思います。</p>
     <p>こういう方におすすめです。</p>
@@ -63,5 +63,9 @@ const pageTitle = "Do It Yourself !!"
     <p>ページごとにコメント欄を設置しているので、お気軽に投稿ください。</p>
     <p>(コメントを投稿するには GitHub のアカウントが必要です)</p>
     <p>また誤字脱字、間違っている記述などを発見した際もコメントいただけますと幸いです。</p>
+    <br>
+    <hr>
+    <br>
+    <div id="alignright">次： <a href={"/posts/post-0"}>{"GitHub のアカウントを作成する"}</a></div>
   </main>
 </BaseLayout>

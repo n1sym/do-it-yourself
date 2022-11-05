@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: 'GitHub のアカウントを作成する'
 required_time: '5分'
+id: 0
 ---
 
 事前準備として、GitHub のアカウントを作成します。

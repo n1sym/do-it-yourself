@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: 'ソースコードを保存する'
 required_time: '5分'
+id: 2
 ---
 
 

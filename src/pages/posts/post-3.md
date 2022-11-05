@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: 'サイトを公開する'
 required_time: '10分'
+id: 3
 ---
 
 stackblitz で作ったサイトを公開してみましょう。

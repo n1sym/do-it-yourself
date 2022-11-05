@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: '開発環境を立ち上げる'
 required_time: '10分'
+id: 1
 ---
 
 何事も始めは「小さく作る」のがおすすめです。
