@@ -21,6 +21,8 @@ id: 7
 
 前回と同じように新しいページ `illust.astro` を作ります。
 
+![](/image/post-7/illust.png)
+
 ~~~astro
 ---
 ---
