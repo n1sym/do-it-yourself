@@ -59,6 +59,13 @@ li {
   padding-bottom: 4px;
 }
 
+blockquote {
+  color: rgb(112, 110, 110);
+  border-left: 0.2rem solid #9c9ea0;
+  padding: 0 0 0 1rem;
+  margin: 1rem 0;
+}
+
 /**
  * GHColors theme by Avi Aryan (http://aviaryan.in)
  * Inspired by Github syntax coloring
