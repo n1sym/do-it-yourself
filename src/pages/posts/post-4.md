@@ -1,11 +1,13 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: 'トップページを作る'
-required_time: '10分'
+required_time: '15分'
 id: 4
 ---
 
-サイトをカスタマイズしていきます。
+現状、作成したサイトは真っ白な背景に文字が表示されているだけです。
+
+これから色々とカスタマイズしていきましょう。
 
 <br>
 
@@ -37,18 +39,24 @@ stackblitz の開発環境を閉じてしまった方は、GitHub に作成し�
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>n1sym Page</title>
 	</head>
 	<body>
-		<h1>n1sym Blog</h1>
+		<h1>n1sym Page</h1>
 		<p>ここは n1sym の個人サイトです。</p>
 	</body>
 </html>
 ~~~
 
-`<h1>`タグの下に、`<p>`タグを追加して、文章を入れてみました。上記のコードはあくまで例なので、何かお好きな文章を入れてみてください。
+`<h1>`タグの下に、`<p>`タグを追加して、文章を入れてみました。
 
-プレビュー画面にも変更が反映されていると思います。
+上記のコードはあくまで例なので、何かお好きな文章を入れてみてください。プレビュー画面にも変更が反映されると思います。
+
+`<h1>` はいわゆる見出しタグというもので、文章の「章」や「節」のタイトルのような役割をします。`<h1>` ~ `<h6>` の種類があり、それぞれで文字の大きさが異なります。
+
+`<p>` は文章の段落を表すタグです。「p」は「paragraph（パラグラフ＝段落）」から来ています。主に「文章のまとまり」を作るために使います。
+
+
 
 <br>
 
@@ -66,10 +74,10 @@ stackblitz の開発環境を閉じてしまった方は、GitHub に作成し�
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>n1sym Page</title>
 	</head>
 	<body>
-		<h1>n1sym Blog</h1>
+		<h1>n1sym Page</h1>
 		<p>ここは n1sym の個人サイトです。</p>
 
 		<hr>

@@ -5,7 +5,9 @@ required_time: '10分'
 id: 5
 ---
 
-CSS を使うことで、文字の大きさを換えたり、背景の色を変えたりできます。
+CSS を使うことで、Webページの文字の大きさを換えたり、背景の色を変えたりできます。
+
+作成したサイトの見た目を調整してみましょう。
 
 <br>
 
@@ -13,7 +15,7 @@ CSS を使うことで、文字の大きさを換えたり、背景の色を変�
 
 `<head>` タグ内に `<style>` タグを追加して、スタイルの設定をします。
 
-
+このスタイルは `index.astro` 、つまりトップページのみに有効な設定となります。
 
 ~~~astro
 ---
@@ -24,20 +26,24 @@ CSS を使うことで、文字の大きさを換えたり、背景の色を変�
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>n1sym Page</title>
 		<style>
 			h1 {background-color: gray;}
 			p {color: olive; font-size: 20px;}
 		</style>
 	</head>
 	<body>
-		<h1>n1sym Blog</h1>
+		<h1>n1sym Page</h1>
 		<p>ここは n1sym の個人サイトです。</p>
 	</body>
 </html>
 ~~~
 
-`<h1>` と `<p>` タグに対して、色や大きさの設定をしています。
+`<h1>` タグの背景をグレーに、 `<p>` タグの文字色をオリーブ色にしています。
+
+また、`<p>` タグの文字サイズも調整しています。このように `;` で区切ることで、複数のスタイルを当てることも可能です。
+
+![](/image/post-5/style.png)
 
 プレビュー画面に反映されないときは、`<body>` タグ内の文章を書き換えれば反映されると思います。（もしくはプレビュー画面の更新ボタンをクリック）
 
@@ -60,7 +66,7 @@ CSS を使うことで、文字の大きさを換えたり、背景の色を変�
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>n1sym Page</title>
 		<style>
 			h1 {background-color: gray;}
 			p {color: olive; font-size: 20px;}
@@ -69,7 +75,7 @@ CSS を使うことで、文字の大きさを換えたり、背景の色を変�
 		</style>
 	</head>
 	<body>
-		<h1>n1sym Blog</h1>
+		<h1>n1sym Page</h1>
 		<p>ここは n1sym の個人サイトです。</p>
 		<p id="color-blue">2つ目の文章です。</p>
 		<p class="color-green">3つ目の文章です。</p>
@@ -89,12 +95,6 @@ CSSタグについて詳しく知りたい方は、以下の記事がおすす�
 
 <br>
 
-# # 文字を中央寄せにする
-
-`<style>` タグの中に `body {text-align: center;}` を追加することで、文字を中央寄せにすることができます。
-
-<br>
-
 # # 公開しているページに変更を反映させる
 
-良い感じに CSS を設定することができたら、Commit ボタンで公開ページにも反映させてみましょう。
+良い感じに CSS を設定することができたら、Commit ボタンをクリックして公開ページにも反映させてみましょう。

@@ -39,12 +39,15 @@ id: 6
 	<body>
 		<h1>About</h1>
 		<p>n1sym と申します。</p>
+    <p><a href="https://twitter.com/n1sym">Twitter</a> をやっています。</p> 
     <a href="/">Home</a>
 	</body>
 </html>
 ~~~
 
-ちょっとややこしいのですが、`href="/"` は `index.astro` へのリンクを表しています。
+`<a>` タグはリンクを表すものです。`href` でURLを指定することができます。
+
+ちょっとややこしいのですが、`href="/"` の `/` は `index.astro` を指しています。つまりこれはトップページへのリンクになっています。
 
 `index.astro` にもページ内リンクを配置します。
 
@@ -57,7 +60,7 @@ id: 6
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>n1sym Page</title>
 		<style>
 		</style>
 	</head>
@@ -75,4 +78,4 @@ id: 6
 
 # # 公開しているページに変更を反映させる
 
-新しいページを作成できたら、Commit ボタンで公開ページにも反映させてみましょう。
+新しいページを作成できたら、Commit ボタンをクリックして公開ページにも反映させてみましょう。

@@ -8,7 +8,7 @@ id: 2
 
 # # GitHub と連携する
 
-StackBlitz にあるソースコードを、GitHub に保存しましょう。
+StackBlitz にで開いているソースコードを、GitHub に保存してみましょう。
 
 ![](/image/post-2/signin.png)
 
@@ -30,9 +30,13 @@ Fork が完了すると、画面左上に Connect repository というボタン�
 
 ![](/image/post-2/reponame.png)
 
+Make this repository private には、**チェックをいれないでください。**
+
 New repository name: に、任意の名前を入力し、Create repo & push ボタンをクリックします。
 
-Make this repository private には、**チェックをいれないでください。**
+repository （リポジトリ）とは、GitHub でのファイルやフォルダの状態を記録する場所のことを指します。
+
+
 
 <br>
 

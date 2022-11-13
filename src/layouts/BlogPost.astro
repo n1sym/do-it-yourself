@@ -27,21 +27,6 @@ if (id != allPosts.length - 1) {
 } else {
   next = {frontmatter: {}}
 }
-
-const advancedPosts = await Astro.glob('../pages/posts/advanced/*.md')
-if (id > 100) {
-  if (id != 101) {
-    prev = advancedPosts[id - 100 - advancedPosts.length]
-    console.log(prev)
-  } else {
-    prev = {url: "/posts/post-10" ,frontmatter: {title: "おわりに"}}
-  }
-  if (id != (100 + advancedPosts.length)) {
-    next = advancedPosts[id - 100]
-  } else {
-    next = {frontmatter: {}}
-  }
-}
 ---
 
 <style>

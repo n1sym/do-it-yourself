@@ -1,8 +1,6 @@
 ---
 const allPosts = await Astro.glob('../pages/posts/*.md')
 const sorted = allPosts.sort((a,b) => a.frontmatter.id - b.frontmatter.id);
-
-const advancedPosts = await Astro.glob('../pages/posts/advanced/*.md')
 ---
 <style>
   ul {padding-left: 20px;}
@@ -14,8 +12,4 @@ const advancedPosts = await Astro.glob('../pages/posts/advanced/*.md')
     <a href="/">はじめに</a>
   </li>
   {sorted.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
-</ul>
-<h3>発展編</h3>
-<ul>
-  {advancedPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
 </ul>

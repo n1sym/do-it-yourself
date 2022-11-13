@@ -59,15 +59,14 @@ id: 7
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>n1sym Page</title>
 		<style>
 		</style>
 	</head>
 	<body>
 		<h1>n1sym</h1>
 		<p>ここは n1sym の個人サイトです。</p>
-		<a href="/about">about</a>
-		<a href="/illust">illust</a>
+		<a href="/about">about</a> / <a href="/illust">illust</a>
 	</body>
 </html>
 ~~~
@@ -78,4 +77,4 @@ id: 7
 
 # # 公開しているページに変更を反映させる
 
-画像が表示出来たら、Commit ボタンで公開ページにも反映させてみましょう。
+画像が表示出来たら、Commit ボタンをクリックして公開ページにも反映させてみましょう。
