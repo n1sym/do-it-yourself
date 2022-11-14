@@ -5,10 +5,12 @@ required_time: '5分'
 id: 2
 ---
 
+StackBlitz で開いているソースコードを、GitHub に保存してみましょう。
+
+<br>
+
 
 # # GitHub と連携する
-
-StackBlitz にで開いているソースコードを、GitHub に保存してみましょう。
 
 ![](/image/post-2/signin.png)
 
@@ -34,7 +36,7 @@ Make this repository private には、**チェックをいれないでくださ�
 
 New repository name: に、任意の名前を入力し、Create repo & push ボタンをクリックします。
 
-repository （リポジトリ）とは、GitHub でのファイルやフォルダの状態を記録する場所のことを指します。
+repository （リポジトリ）は GitHub の用語で、ファイルやフォルダを記録する場所のことを指します。
 
 
 
